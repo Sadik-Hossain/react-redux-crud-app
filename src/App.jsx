@@ -1,11 +1,8 @@
 import "./App.css";
+import Index from "./routes";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>hello from app</h1>
-    </div>
-  );
+  return <Index />;
 }
 
 export default App;
