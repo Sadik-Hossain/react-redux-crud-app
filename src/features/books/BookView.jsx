@@ -19,7 +19,7 @@ const BookView = () => {
       <table>
         <thead>
           <tr>
-            <th>ID</th>
+            {/* <th>ID</th> */}
             <th>Title</th>
             <th>Author</th>
             <th>Action</th>
@@ -31,7 +31,7 @@ const BookView = () => {
               const { id, title, author } = book;
               return (
                 <tr>
-                  <td>{id}</td>
+                  {/* <td>{id}</td> */}
                   <td>{title}</td>
                   <td>{author}</td>
                   <td>
